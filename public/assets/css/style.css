@@ -1,0 +1,48 @@
+/*ajuste del body de la pagina web*/
+body{
+    background: url(/public/assets/img/fondo.jpg) no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-size: 200%;
+    background-position: center;
+}
+/*ajuste del box*/
+.box{
+    border: 2px solid #ffffff85;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width: 370px;
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    margin: 0 auto;
+    margin-top: 8%;
+}
+.login{
+    padding-left: 44px;
+}
+.input_correo{
+    border-radius: 5rem;
+    background-color: rgba(255, 255, 255, 0.493);
+    border: 0px;
+}
+.input_contraseña{
+    border-radius: 5rem;
+    background-color: rgba(255, 255, 255, 0.493);
+    border: 0px;
+}
+.p_correo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+.p_contraseña{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+.btn-submit{
+    margin-left: 55px;
+    width: 55px;
+    border: 0px;
+    background-color: rgba(172, 255, 47, 0.527);
+    border-radius: 15px;
+}
