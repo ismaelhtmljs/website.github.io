@@ -1,0 +1,129 @@
+/*body de la pagina web*/
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+/*header de la pagina web*/
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5deb3ab;
+    border-radius: 15px;
+}
+.logo h1{
+    font-size: 24px;
+}
+.logo{
+    padding-left: 15px;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    gap: 10px;
+}
+.navbar a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+}
+.navbar a:hover{
+    transition: ease 1s;
+    background-color: rgba(172, 255, 47, 0.842);
+    border-radius: 15px;
+}
+.navbar a:not(:hover){
+    transition: ease 500ms;
+}
+/*aside derecho*/
+.aside_derecho{
+    /*ajustanto para que este en la derecha*/
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(169, 169, 169, 0.516);
+    border-radius: 2rem;
+    top: 16%;
+    right: 0;
+    height: 1570px;
+    width: 430px;
+}
+.aside_box_derecho{
+    display: flex;
+    flex-direction: column;
+}
+.name_machu_picchu, .name_alpamayo, .name_torre_de_los_andes{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    padding-left: 35px;
+}
+.img_machu_picchu{
+    padding: 5px 15px;
+    border-radius: 3rem;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+.img_alpamayo{
+    padding: 5px 15px;
+    border-radius: 3rem;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+.img_torres_de_los_andes{
+    padding: 5px 15px;
+    border-radius: 3rem;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+.aside-titulo{
+    padding: 0 15px;
+    text-decoration: underline;
+}
+/*ajuste de main de la pagina*/
+.main{
+    padding: 0 5px;
+    width: 897px;
+}
+/*ajuste del footer de la pagina web*/
+.footer{
+    background-color: #000000aa;
+    position: absolute;
+    border-radius: 25px;
+    height: 10%;
+    width: 100%;
+    margin-top: 20%;
+}
+.contenedor_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.3%;
+    gap: 15px;
+}
+.contenedor_footer a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.contenedor_footer a:hover{
+    transition: ease 500ms;
+    font-size: xx-large;
+    color: #0000ff;
+    background-color: rgba(255, 255, 0, 0.455);
+    border-radius: 25px;
+}
+.contenedor_footer a:not(:hover){
+    transition: ease 1s;
+}
